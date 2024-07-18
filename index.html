@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>BookMark</title>
+</head>
+<body>
+    <div class="parent">
+       <div class="container child-1  ">
+        <h1 class="py-6 text-center ">Bookmarker</h1>
+        <div class="point"></div>
+        <div class="con-font text-center my-4">
+            <i class="fa-solid grean font-icon1 fs-4  fa-bookmark"></i>
+            <i class="h2"> <span class="grean  opacity-75">Bookmark your</span> <span class="grean-outlone">favorite sites</span></i>
+            <i class="fa-solid grean-outlone fs-4 fa-bookmark"></i>
+        </div>
+        <div class="fill-form">
+            <i class="fa-solid fa-book-bookmark fs-5  pe-2"></i>
+            <span><label for="urlname" class="form-label fs-5 "><b>Site Name</b></label></span>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="urlname" placeholder="BookMark Name">
+              </div>
+              <i class="fa-solid fa-link fs-5 pe-2"></i>
+              <span><label for="urlform" class="form-label fs-5 "><b>Site URL</b></label></span>
+              <div class="mb-3">
+                  <input type="url" class="form-control" id="urlform" placeholder="Website URL">
+                </div>
+           <div class="text-center"><button class="btn btn-danger px-5 mt-2 mb-4" onclick="addBookMark()">Submit</button></div>
+           <div class="point"></div>
+        </div>
+
+       </div>
+        
+    </div>
+
+    <div class="container mt-3 text-center">
+        <table class="table">
+            <thead >
+                <tr>
+                    <td>Index</td>
+                    <td>Website Name</td>
+                    <td>Visit</td>
+                    <td>Delete</td>
+                </tr>
+            </thead>
+            <tbody id="siteCont">
+            
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.parent  h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*,::after,::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7ecde;
+}
+.py-6{
+    padding: 6% 0;
+}
+ .point{
+border-bottom:#000 dotted ;
+}
+
+
+.grean{
+    color: #3ca55c ;
+}
+
+.grean-outlone{
+    color: #b5ac49;
+}
